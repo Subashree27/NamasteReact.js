@@ -5,7 +5,6 @@ import Body from "./Components/Body";
 import About from './About';
 import Contact from './Contact';
 import Error from './Error';
-import RestaurantMenu from '../RestaurantMenu';
 import { createBrowserRouter,RouterProvider,Outlet } from 'react-router-dom';
 import Shimmer from './Components/Shimmer';
 import UserContext from './utils/UserContext';
