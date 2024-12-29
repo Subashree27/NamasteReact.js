@@ -28,8 +28,8 @@ const [showIndex, setShowIndex]=useState(null);
 
     return(
         <div className="menu">
-            <h1 className="font-bold my-6 text-2xl" >{name}</h1> 
-            <p className="font-bold text-lg">{cuisines.join(",")+" - "+costForTwoMessage}</p>
+            <h1 className="font-bold my-6 text-2xl text-center" >{name}</h1> 
+            <p className="font-bold text-lg text-center">{cuisines.join(",")+" - "+costForTwoMessage}</p>
             {categories.map((category,index)=>(
                 <RestaurantCategory key={category?.card?.card?.title} data={category?.card?.card}
                 showItems={index=== showIndex? true: false}

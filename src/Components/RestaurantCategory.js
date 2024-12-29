@@ -24,8 +24,6 @@ const RestaurantCategory=({data,showItems,setShowIndex, dummy})=>{
         </div>
     )
 }
-<<<<<<< HEAD
+
 export default RestaurantCategory;
-=======
-export default RestaurantCategory;
->>>>>>> e4e4aa91a4b6a220fd5d4f7ddea394ac7ef39947
+

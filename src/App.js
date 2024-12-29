@@ -12,6 +12,7 @@ import {useState,useEffect} from "react";
 import { Provider } from "react-redux";
 import appStore from "./utils/appStore";
 import Cart from './Components/Cart';
+import RestaurantMenu from './Components/RestaurantMenu';
 
 
 
